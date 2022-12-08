@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang=""en>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-sm"> <!--navbar-dark bg-dark-->
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../portfolio.html">Maya Ashkenazi</a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav d-flex"> <!-- How to push to right?-->
+                    <li class="navbar-item text-light"><a href="#sketching" class="nav-link">Sketching</a></li>
+                    <li class="navbar-item text-light"><a href="#interviews" class="nav-link">Observations and Interviews</a></li>
+                    <li class="navbar-item text-light"><a href="#personas" class="nav-link">Personas</a></li>
+                    <li class="navbar-item text-light"><a href="#storyboard" class="nav-link">Storyboarding</a></li>
+                    <li class="navbar-item text-light"><a href="#reflection" class="nav-link">Reflection</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="head">
+        <h1 class="title-head">Personas and Storyboarding</h1>
+        <p class="desc-head">
+            The CVS machine checkout stations substitute for human checkout stations to reduce wait times and expedite the checkout process.
+                                I developed sketches of the interface and conducted interviews to produce personas and a storyboard.
+        </p>
+        <p class="desc-head">
+            <strong>Skills:</strong>
+            <mark style="background: rgb(20, 0, 145)!important; color: white;" class="skill">Sketching (Balsamiq)</mark>
+            <mark style="background: rgb(20, 0, 145)!important; color: white;" class="skill">User Interviews</mark>
+            <mark style="background: rgb(20, 0, 145)!important; color: white;" class="skill">Personas</mark>
+            <mark style="background: rgb(20, 0, 145)!important; color: white;" class="skill">Storyboarding</mark>
+        </p>
+        <img src="checkout.jpg" class="pic-head overlay">
+    </header>
+    
+    <main>
+        <h2 class="mt-5 part-title" id="sketching">Part 1: Sketching</h2>
+        <div class="part">
+            <div>
+                <h3>Sketches</h3>
+                <p>First, I used Balsamiq to make some sketches representing a common flow using the CVS machine checkout station.</p>
+                <video class='sketches' controls>
+                    <source src="sketch_vid.mov" class="sketchvid">
+                </video>
+            </div>
+
+            <div>
+                <h3>Key Interactive Components</h3>
+                <p>The sketching process helped me realize some key interactive components:</p>
+                <ul>
+                    <li>Initial, bright red screen indicates machine availability to potential users</li>
+                    <li>Once  user begins interacting with checkout station, screen divided in 2 sections: receipt on left and available user actions on right</li>
+                    <li>Once user journey is complete, machine automatically returns to initial availability state</li>
+                </ul>
+            </div>
+        </div>
+
+        <h2 class="mt-5 part-title" id="interviews">Part 2: Observations and Interviews</h2>
+        <div class="part">
+            <div>
+                <h3>Observations</h3>
+                <p>Before I began interviewing, I took time to observe CVS customers engaging with the checkout machines. I noticed that:</p>
+                <ul>
+                    <li>Customers stand in line for machine checkouts even when human checkouts available</li>
+                    <li>Various machine checkout issues requiring human cashier assistance (e.g. age restricted items)</li>
+                    <li>Compared to human chechouts, machine checkouts are used for quicker purchases of fewer items</li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>Interview Questions</h3>
+                <p>I then began interviewing customers. I asked:</p>
+                <ul>
+                    <li>Why did you choose to come to this convenience store today?</li>
+                    <li>How many times have you been to this CVS this past week?</li>
+                    <li>Why do you use this checkout station instead of the human checkout station?</li>
+                    <li>What is your favorite thing about this station?</li>
+                    <li>What is your least favorite thing about this station?</li>
+                    <li>What would you change about this station?</li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>Interview Summary</h3>
+                <p>From my interviews, I learned that CVS customers:</p>
+                <ul>
+                    <li>Go to this convenience store because it is closest to where they live (many are students)</li>
+                    <li>Prefer machine checkout because believe it's faster</li>
+                    <li>Like the minimal interaction with other humans (especially when buying sensitive items)</li>
+                    <li>Dislike when human assistance necessary</li>
+                </ul>
+            </div>
+        </div>
+
+        <h2 class="mt-5 part-title" id="personas">Part 3: Personas</h2>
+        <div class="part row">
+            <div class="col-6">
+                <h3>Persona 1: Private Paige</h3>
+                <p>
+                    Paige is a freshman in college.
+                    It’s her first time living away from home, and when she buys products she feels are private, she worries about bumping into people she knows.
+                    Paige gets embarrassed and frustrated when the checkout machine requires the human cashier’s assistance.
+                    Since this CVS sells many personal care items and is located near freshman dorms, its machine checkout stations are often used by students like Paige.
+                </p>
+                <ul>
+                    <strong>Thinks</strong>
+                    <li>I hope I don't bump into anyone I know!</li>
+                    <li>I wish I didn't have to buy this so publicly</li>
+                    <li>I wonder if my roommate's going to the party tonight?</li>
+                </ul>
+                <ul>
+                    <strong>Feels</strong>
+                    <li>Stressed about adjusting to college life</li>
+                    <li>Nervous about someone seeing her purchases</li>
+                    <li>Anxious about her first college party</li>
+                </ul>
+                <ul>
+                    <strong>Says</strong>
+                    <li>Whispers when asks employee, "Where can I find tampons?"</li>
+                    <li>Avoids conversation as much as possible</li>
+                </ul>
+                <ul>
+                    <strong>Does</strong>
+                    <li>Tries to cover her purchases from those around her</li>
+                    <li>Quickly puts items away</li>
+                </ul>
+            </div>
+
+            <div class="col-6">
+                <h3>Persona 2: Hurried Hector</h3>
+                <p>
+                    Hector is a graduate student.
+                    Balancing his courses, research, social life, job search, and new relationship takes up a lot of his time, and he feels he’s always rushing to his next meeting.
+                    Hector gets frustrated when waiting in line and when the machine takes time processing its payment.
+                    Since many CVS customers are busy students who are there to purchase 1 or 2 items, there are many users like Hector who want to go through the checkout process as fast as possible.
+                </p>
+                <ul>
+                    <strong>Thinks</strong>
+                    <li>I'm going to be late to my meeting</li>
+                    <li>I wonder if CVS has cooking spices?</li>
+                    <li>I wish checking out had fewer steps</li>
+                </ul>
+                <ul>
+                    <strong>Feels</strong>
+                    <li>Stressed about upcoming job interviews</li>
+                    <li>Excited to cook new recipe for girlfriend</li>
+                    <li>Behind on his research work</li>
+                </ul>
+                <ul>
+                    <strong>Says</strong>
+                    <li>"Do you mind if I go ahead of you? I'm running late for a meeting and only have one item"</li>
+                    <li>"Sorry, excuse me"</li>
+                </ul>
+                <ul>
+                    <strong>Does</strong>
+                    <li>Presses checkout screen with lots of force</li>
+                    <li>Checks his watch often</li>
+                </ul>
+            </div>
+        </div>
+
+        <h2 class="mt-5 part-title" id="storyboard">Part 4: Storyboarding</h2>
+        <div class="part">
+            <div>
+                <h3>Storyboard</h3>
+                <p>
+                    Using my first persona, Private Paige, I then created a storyboard describing her user journey.
+                </p>
+                <img src="storyboard.png" class="storypic">
+            </div>
+        </div>
+
+        <h2 class="mt-5 part-title" id="reflection">Reflection</h2>
+        <div class="part-ref">
+            <h5>
+                Though I had had previous experience sketching and interviewing, this project revealed to me the benefits of creating personas and storyboards.
+            </h5>
+            <h5>
+                By representing my observations and interview responses as personas and then as a storyboard, I became a more attentive and empathetic UX designer.
+            </h5>
+        </div>   
+    </main>
+
+    <footer id="foot" class="text-end py-3">
+        <div class="container text-right"></div>
+        <p class="my-0 foot-text">
+            Made with &hearts; in Providence
+        </p>
+    </footer>
+
+</body>
+</html>

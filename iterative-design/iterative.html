@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang=""en>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-sm"> <!--navbar-dark bg-dark-->
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../portfolio.html">Maya Ashkenazi</a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav d-flex"> <!-- How to push to right?-->
+                    <li class="navbar-item text-light"><a href="#sketching" class="nav-link">Sketching</a></li>
+                    <li class="navbar-item text-light"><a href="#lofi" class="nav-link">Lo-Fi Wireframing</a></li>
+                    <li class="navbar-item text-light"><a href="#hifi" class="nav-link">Hi-Fi Prototyping</a></li>
+                    <li class="navbar-item text-light"><a href="#testing" class="nav-link">User Testing</a></li>
+                    <li class="navbar-item text-light"><a href="#reflection" class="nav-link">Reflection</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="head">
+        <h1 class="title-head">Iterative Design</h1>
+        <p class="desc-head">
+            As part of a group, I was involved in mocking up a solution to the an emerging startup's concept, designing an interactive interface, and conducting user testing.
+            For this project, we chose to redesign a mobile interface for
+            <a href="https://www.ycombinator.com/companies/marathon-education" target="_blank" rel="noopener noreferrer" class="text-link">Marathon Education</a>,
+            which provides live after-school tutoring and classes to K-12 students in Vietnam.
+        </p>
+        <p class="desc-head">
+            <strong>Skills:</strong>
+            <mark style="background: rgb(20, 0, 145)!important; color: white;" class="skill">Lo-Fi Wireframing (Figma)</mark>
+            <mark style="background: rgb(20, 0, 145)!important; color: white;" class="skill">Hi-Fi Prototyping (Figma)</mark>
+            <mark style="background: rgb(20, 0, 145)!important; color: white;" class="skill">User Testing</mark>
+        </p>
+        <img src="hififlow.png" class="pic-head">
+    </header>
+    
+    <main>
+        <h2 class="mt-5 part-title" id="sketching">Part 1: Sketching</h2>
+        <div class="part">
+            <h3>Group Sketching</h3>
+            <p>
+                Each group member brainstormed different potential designs for Marathon's app.
+            </p>
+
+            <div class="row">
+                <div class="col-4">
+                    <img src="hadley1.png" class="pic-sketch">
+                </div>
+
+                <div class="col-4">
+                    <img src="hadley2.png" class="pic-sketch">
+                </div>
+
+                <div class="col-4">
+                    <img src="izzy1.png" class="pic-sketch">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <img src="maya2.png" class="pic-sketch">
+                </div>
+
+                <div class="col-4">
+                    <img src="maya3.png" class="pic-sketch">
+                </div>
+
+                <div class="col-4">
+                    <img src="oren.png" class="pic-sketch">
+                </div>
+            </div>
+        </div>
+
+        <h2 class="mt-5 part-title" id="lofi">Part 2: Low-Fidelity Wireframing</h2>
+        <div class="part">
+            <h3>Combining Ideas</h3>
+            <p>
+                We then combined our ideas to produce an initial, low-fidelity wireframe.
+            </p>
+
+            <video class='wireframe' controls>
+                <source src="wireframe.mov">
+            </video>
+
+            <img src="wireframeimg.png" class="pic-sketch overlay">
+            
+        </div>
+
+        <h2 class="mt-5 part-title" id="hifi">Part 3: Critique and High-Fidelity Prototyping</h2>
+        <div class="part">
+            <h3>Studio Critique</h3>
+            <p>
+                During our studio critique session, we received feedback that helped us better develop our high-fidelity prototype.
+                Here are a few critiques that were especially helpful:
+            </p>
+            <ul>
+                <li>Include description of company on first sign up page</li>
+                <li>Make the recommended courses more relevant/informed by the user sign up</li>
+                <li>Include a username/password section of the sign up</li>
+                <li>Simplify the home page</li>
+                <li>Edit the live "slow down" and "speed up" options, to make more clear if classes are recorded or live</li>
+                <li>Search results should be clickable in their entirety</li>
+            </ul>
+
+            <h3>High-Fidelity Prototyping</h3>
+            <p>
+                Using the feedback we received in the studio critique, we created our high-fidelity prototypes.
+            </p>
+            <div class="row">
+                <div class="col-6">
+                    <video class='walkthrough' controls>
+                        <source src="walkthrough.mov">
+                    </video>
+                </div>
+
+                <div class="col-6">
+                    <video class='hifimov' controls>
+                        <source src="hifi.mov">
+                    </video>
+                </div>
+            </div>
+
+            <img src="hififlow.png" class="pic-hifi">
+        </div>
+
+        <h2 class="mt-5 part-title" id="testing">Part 4: User Testing</h2>
+        <div class="part">
+            <p>
+                We then conducted our own usability test through a remote user testing service
+                (<a href="https://www.usertesting.com/" target="_blank" rel="noopener noreferrer" class="text-link">UserTesting.com</a>)
+                using our interactive hi-fi prototype.
+            </p>
+            <h3>Testing Instructions</h3>
+            <p>
+                Imagine you’re a 6th grade student, seeking help in your Algebra studies.
+                Sign up for Marathon Education and register for the 6th grade Algebra class.
+                Once you’ve registered for this class, join the live session.
+                Please think aloud as you are performing the tasks.
+            </p>
+            <p>
+                You will be interacting with an interactive mockup, not an actual website.
+                Not all buttons will work, but imagine that they would be functional in the final prototype.
+                If at any point you are unsure of how to continue, press anywhere on the screen to see the available next steps highlighted in blue.
+            </p>
+
+            <h3>Testing Tasks</h3>
+            <ul>
+                <li>
+                    Follow the first few pages to sign up for Marathon Education. You will know that you have completed this task successfully when you have reached the home page.
+                </li>
+                <li>
+                    Register for the 6th grade Algebra class. You will know that you have completed this task successfully when the 6th grade Algebra class appears in the ‘My Classes’ tab.
+                </li>
+                <li>
+                    Join the live session of the 6th grade Algebra class. You will know that you have completed this task successfully when you see a screen with math equations and student questions.
+                </li>
+            </ul>
+
+            <h3>Post-Task Questions and Responses</h3>
+            <ul>
+                <li>What frustrated you most about this app?
+                    <ol>
+                        <li>The colors, and design.</li>
+                        <li>No frustration about the app.</li>
+                        <li>The only thing that frustrated me was that 6th grade Algebra wasn't listed in the menu of choices.</li>
+                    </ol>
+                </li>
+                <li>What did you like about this app?
+                    <ol>
+                        <li>It was really easy to use, but it has an old vibe.</li>
+                        <li>The simplicity made it easy to maneuver. The screen is not too busy.</li>
+                        <li>I liked that it was easy to register, sign up and start a class.</li>
+                    </ol>
+                </li>
+                <li>Do you think this app is accessible for a wide range of ages? What is the youngest age this app is appropriate for?
+                    <ol>
+                        <li>Yes! I think like 8 would be the youngest age.</li>
+                        <li>6th grade is a little on the young side, in my opinion. Due to kids getting distracted and needing to select the correct class.</li>
+                        <li>I think that 6th grade and up would be the best choice for this app. And I think anyone older than that could easily use it. The youngest age I would think could use it well would be about 11 year olds.</li>
+                    </ol>
+                </li>
+                <li>Any other comments?
+                    <ol>
+                        <li>No.</li>
+                        <li>No other comments about the app.</li>
+                        <li>I admire you for trying have tools to teach math online. I think it would be pretty hard to do.</li>
+                    </ol>
+                </li>
+            </ul>
+
+            <h3>Testing Videos</h3>
+            <h4>User 1</h4>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/kxwbqw7s35c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
+            <h4>User 2</h4>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/TzFeDMJThcg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+           
+            <h4>User 3</h4>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/WduFhV5OsI0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <h3>Analysis of Testing Results</h3>
+            <p>
+                All users who participated in our user testing study were able to complete all tasks successfully without getting lost: managing to sign up for the app, registering for a course, and joining a live session.
+                All users seemed to clearly understand the structure and flow of the app.
+                These results were in line with our expectations, and we didn’t encounter any major surprises or problems with our testing. 
+                sers generally made small errors, such as navigating to the ‘wrong’ tab (i.e. going to the ‘My Classes’ tab before any classes were registered), and all of our users attempted to find their class in the ‘recommended’ section before going to the ‘explore’ tab and manually searching for their goal.
+                One of the users was unsure if the app was designed for live sessions or pre-recorded lectures.
+            </p>
+            <p>
+                The most critical piece of feedback we received was on our visual style; specifically, one user felt the visual design used outdated features (e.g. the tabs) and outdated styles (e.g. the dark blue color and font).
+                Based on this response, we would potentially switch the top tabs with a more modern bottom menu (like on Snackpass or Instagram) and experiment with different color and font options.
+                To do so we would conduct an analysis of design attributes and decisions found in the interfaces of similar successful services and implement these attributes into our own design.
+            </p>
+
+        </div>
+
+        <h2 class="mt-5 part-title" id="reflection">Reflection</h2>
+        <div class="part-ref">
+            <h5>
+                While working on this project, I learned to design within a group.
+                I learned how to combine multiple visions of a product to produce a single product.
+            </h5>
+            <h5>
+                I also had the opportunity to engage in an iterative design process.
+                For example, my group was able to implement important feedback we received from our studio critique into our design solution and send our product to user testing for review.
+                This project highlighted to me the benefits of continuous design iterations over a product.
+            </h5>
+        </div>   
+    </main>
+
+    <footer id="foot" class="text-end py-3">
+        <div class="container text-right"></div>
+        <p class="my-0 foot-text">
+            Made with &hearts; in Providence
+        </p>
+    </footer>
+
+</body>
+</html>

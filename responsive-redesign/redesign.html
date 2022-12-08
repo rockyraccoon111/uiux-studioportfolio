@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang=""en>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-sm"> <!--navbar-dark bg-dark-->
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../portfolio.html">Maya Ashkenazi</a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav d-flex"> <!-- How to push to right?-->
+                    <li class="navbar-item text-light"><a href="#issues" class="nav-link">Assessing Issues</a></li>
+                    <li class="navbar-item text-light"><a href="#lofi" class="nav-link">Lo-Fi Wireframing</a></li>
+                    <li class="navbar-item text-light"><a href="#visual" class="nav-link">Visual Redesigning</a></li>
+                    <li class="navbar-item text-light"><a href="#hifi" class="nav-link">Hi-Fi Prototyping</a></li>
+                    <li class="navbar-item text-light"><a href="#solution" class="nav-link">Solution</a></li>
+                    <li class="navbar-item text-light"><a href="#reflection" class="nav-link">Reflection</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="head">
+        <h1 class="title-head">Responsive Redesign</h1>
+        <p class="desc-head">
+            On the
+            <a href="https://www.goodreads.com/list" target="_blank" rel="noopener noreferrer" class="text-link">GoodReads Listopia page</a>,
+            users can search and browse book lists.
+            Here, I share my design process and 
+            <a href="https://rockyraccoon111.github.io/uiux-assign2/" target="_blank" rel="noopener noreferrer" class="text-link">final responsive redesign</a>
+            of the page, which improves usability and accessibility.
+        </p>
+        <p class="desc-head">
+            <strong>Skills:</strong>
+            <mark style="background: rgb(20, 0, 145)!important; color: white;" class="skill">Lo-Fi Wireframing (Balsamiq)</mark>
+            <mark style="background: rgb(20, 0, 145)!important; color: white;" class="skill">Hi-Fi Prototyping (Figma)</mark>
+            <mark style="background: rgb(20, 0, 145)!important; color: white;" class="skill">Visual Design</mark>
+            <mark style="background: rgb(20, 0, 145)!important; color: white;" class="skill">HTML</mark>
+            <mark style="background: rgb(20, 0, 145)!important; color: white;" class="skill">CSS (Bootstrap)</mark>
+        </p>
+        <img src="listopia.png" class="pic-head overlay">
+    </header>
+    
+    <main>
+        <h2 class="mt-5 part-title" id="issues">Part 1: Assessing Issues</h2>
+        <div class="part">
+            <div class="row">
+                <h3>Usability Issues</h3>
+                <!-- <p>
+                    The GoodReads Listopia page has many usability issues that may confuse new users (learnability), casual users (memorability), and frequent users (efficiency).
+                </p> -->
+
+                <div class="col-4">
+                    <h4 class="d-flex justify-content-center">Learnability</h4>
+                    <ul>
+                        <p>New users may be confused about:</p>
+                        <li>Why the list categories aren't all in the same location and format (compare featured/recent activity in center with best of/brand new on right)</li>
+                        <li>Why there are two search bars (one for general and one for tags)</li>
+                        <li>Why they can't browse all of their lists at the same time </li>
+                    </ul>
+                </div>
+
+                <div class="col-4">
+                    <h4 class="d-flex justify-content-center">Memorability</h4>
+                    <ul>
+                        <p>Casual users may forget:</p>
+                        <li>Where different book list categories are</li>
+                        <li>Where and how to search their lists</li>
+                        <li>How to browse</li>
+                    </ul>
+                </div>
+
+                <div class="col-4">
+                    <h4 class="d-flex justify-content-center">Efficiency</h4>
+                    <ul>
+                        <p>Frequent users might be slowed down by:</p>
+                        <li>"All Lists" link that leads to main Listopia page (e.g. goes nowhere)</li>
+                        <li>Irrelevant lists with little traction in recent activity and brand new list categories</li>
+                        <li>The inefficient browsing process</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row">
+                <h3>Accessibility Issues</h3>
+                <!-- <p>
+                    The GoodReads Listopia page also has many accessibility issues that may make it difficult to use for those with visual and/or motor impairments.
+                </p> -->
+
+                <div class="col-4">
+                    <h4 class="d-flex justify-content-center">Low Contrast</h4>
+                    <ul>
+                        <li>
+                            <a href="https://wave.webaim.org/" target="_blank" rel="noopener noreferrer" class="text-link">WebAIM WAVE</a>
+                            reveals that the page has 60 instances of low contrast (number of books and voters written in very light text on white background), which makes some text unreadable for those who are visually impaired
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-4">
+                    <h4 class="d-flex justify-content-center">Small Text and Spaces</h4>
+                    <ul>
+                        <li>Small text makes the page difficult to read for those who are visually impaired</li>
+                        <li>Small spaces between links (e.g. lists I've created/voted on/liked) makes selecting options difficult for those with impairments relating to fine motor skills</li>
+                    </ul>
+                </div>
+
+                <div class="col-4">
+                    <h4 class="d-flex justify-content-center">Single Screen Size</h4>
+                    <ul>
+                        <li>Page is not adaptable to different screen sizes, so is inaccessible to those viewing on non-desktop devices or tab sizes</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="mt-5 part-title" id="lofi">Part 2: Low-Fidelity Wireframing</h2>
+        <div class="part row">
+            <div class="col-5">
+                <h3 class="">Desktop View</h3>
+                <img src="lofidesk.png" class="pic-lofi">
+            </div>
+
+            <div class="col-4">
+                <h3 class="">Tablet View</h3>
+                <img src="lofitab.png" class="pic-lofi">
+            </div>
+
+            <div class="col-3">
+                <h3 class="">Phone View</h3>
+                <img src="lofiphone.png" class="pic-lofi">
+            </div>
+        </div>
+
+        <h2 class="mt-5 part-title" id="visual">Part 3: Visual Redesigning</h2>
+        <div class="part row">
+            <h3>Visual Design Style Guide</h3>
+            <div class="col-4 d-flex align-items-center justify-content-center">
+                <p>
+                    On the right, is my visual design style guide.
+                    I attempted to retain as much of the original design as possible, while introducing new elements and interactions that would make the page more usable and accessible.
+                    For example, I replaced the two search bars in the original design with a search bar that has a dropdown attached, and I changed the number of books and voters text to be more readable and accessible for those with visual impairments.
+                </p>
+            </div>
+
+            <div class="col-8 d-flex justify-content-center">
+                <img src="styleguide.png" class="pic-vis">
+            </div>
+        </div>
+
+        <h2 class="mt-5 part-title" id="hifi">Part 4: High-Fidelity Prototyping</h2>
+        <div class="part row">
+            <div class="col-5">
+                <h3 class="">Desktop View</h3>
+                <img src="hifidesk.png" class="pic-hifi">
+            </div>
+
+            <div class="col-4">
+                <h3 class="">Tablet View</h3>
+                <img src="hifitab.png" class="pic-hifi">
+            </div>
+
+            <div class="col-3">
+                <h3 class="">Phone View</h3>
+                <img src="hifiphone.png" class="pic-hifi">
+            </div>
+        </div>
+
+        <h2 class="mt-5 part-title" id="solution">Part 5: Solution</h2>
+        <div class="part">
+            <div>
+                <h3>Redesigned Listopia Page</h3>
+                <p>
+                    Below, I compare the
+                    <a href="https://www.goodreads.com/list" target="_blank" rel="noopener noreferrer" class="text-link">current Listopia page</a>
+                    (left) with my
+                    <a href="https://rockyraccoon111.github.io/uiux-assign2/" target="_blank" rel="noopener noreferrer" class="text-link">redesigned page</a>
+                    (right).
+                    Feel free to navigate to the links to explore the differences for yourself!
+                </p>
+
+                <div class="row">
+                    <div class="col-6">
+                        <img src="original.png" class="pic-lofi">
+                    </div>
+
+                    <div class="col-6">
+                        <img src="design.png" class="pic-lofi">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="mt-5 part-title" id="reflection">Reflection</h2>
+        <div class="part-ref">
+            <h5>
+                Not only did this project grow my HTML and CSS skills, it also made me more aware of unusable, inaccessible web habits and potential solutions to them.
+            </h5>
+        </div>   
+    </main>
+
+    <footer id="foot" class="text-end py-3">
+        <div class="container text-right"></div>
+        <p class="my-0 foot-text">
+            Made with &hearts; in Providence
+        </p>
+    </footer>
+
+</body>
+</html>

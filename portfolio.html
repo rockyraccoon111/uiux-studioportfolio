@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang=""en>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-sm"> <!--navbar-dark bg-dark-->
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Maya Ashkenazi</a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav d-flex"> <!-- How to push to right?-->
+                    <li class="navbar-item text-light"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="navbar-item text-light"><a href="#about" class="nav-link">About</a></li>
+                    <li class="navbar-item text-light"><a href="#connect" class="nav-link">Connect</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="d-flex flex-column title justify-content-center"> <!--align-items-center-->
+        <div class="container">
+            <div class="row">
+              <div class="col-3 d-flex justify-content-center align-items-center">
+                <img src="me.png" id="prof-img" style="width: 50%;">
+              </div>
+              <div class="col-9">
+                <h1 class="text-light mx-5 px-5 py-5">
+                    <strong>Welcome</strong>!
+                </h1>
+                <h1 class="text-light mx-5 px-5"><mark style="background: hsla(279, 75%, 31%, 1)!important; color: white;">I'm Maya</mark>, a Brown University student with a focus in Human Computer Interaction.</h1>
+                <h3 class="text-light mx-5 px-5">
+                    I take joy in using my interdisciplinary background to create natural digital experiences.
+                </h3>        
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="projects" class="container">
+        <div class="row py-5 justify-content-center">
+            <h1 class="d-flex justify-content-center mb-5">Projects</h1>
+            <div class="col-md-6 pb-5">
+                <div class="card h-100">
+                    <!-- <div class="card-header">
+                        <img src="./personas-storyboarding/checkout.jpg" class="proj-img blue-layer" style="width: 100%; max-width: 25;">
+                        <h3>Personas and Storyboarding</h3>
+                    </div> -->
+                    <div class="card-body">
+                        <div class="card=text">
+                            <img src="./personas-storyboarding/checkout.jpg" class="proj-img blue-layer" style="width: 100%; max-width: 25;">
+                            <h3 class="mt-2">Personas and Storyboarding</h3>
+                            <p class="desc-head mt-3">
+                                The CVS machine checkout stations substitute for human checkout stations to reduce wait times and expedite the checkout process.
+                                I developed sketches of the interface and conducted interviews to produce personas and a storyboard.
+                            </p>
+                            <p class="desc-head">
+                                <strong>Skills:</strong>
+                                <mark style="background: rgb(20, 0, 145)!important; color: white;" class="skill">Sketching (Balsamiq)</mark>
+                                <mark style="background: rgb(20, 0, 145)!important; color: white;" class="skill">User Interviews</mark>
+                                <mark style="background: rgb(20, 0, 145)!important; color: white;" class="skill">Personas</mark>
+                                <mark style="background: rgb(20, 0, 145)!important; color: white;" class="skill">Storyboarding</mark>
+                            </p>
+                            <a href="./personas-storyboarding/personas.html" class="card-btn btn text-light btn-lg">See project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 pb-5">
+                <div class="card h-100">
+                    <!-- <div class="card-header">
+                        <img src="./responsive-redesign/listopia.png" class="proj-img blue-layer" style="width: 100%; max-width: 25;">
+                        <h3>Responsive Redesign</h3>
+                    </div> -->
+                    <div class="card-body">
+                        <div class="card=text"> <!--d-flex flex-wrap-->
+                            <img src="./responsive-redesign/listopia.png" class="proj-img blue-layer" style="width: 100%; max-width: 25;">
+                            <h3 class="mt-2">Responsive Redesign</h3>
+                            <p class="desc-head mt-3">
+                                On the GoodReads Listopia page, users can search and browse book lists.
+                                Here, I share my redesign of the page, which improves usability and accessibility.
+                            </p>
+                            <p class="desc-head">
+                                <strong>Skills:</strong>
+                                <mark style="background: rgb(20, 0, 145)!important; color: white;" class="skill">Lo-Fi Wireframing (Balsamiq)</mark>
+                                <mark style="background: rgb(20, 0, 145)!important; color: white;" class="skill">Hi-Fi Prototyping (Figma)</mark>
+                                <mark style="background: rgb(20, 0, 145)!important; color: white;" class="skill">Visual Design</mark>
+                                <mark style="background: rgb(20, 0, 145)!important; color: white;" class="skill">HTML</mark>
+                                <mark style="background: rgb(20, 0, 145)!important; color: white;" class="skill">CSS (Bootstrap)</mark>
+                            </p>
+                            <a href="./responsive-redesign/redesign.html" class="card-btn btn text-light btn-lg">See project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 pb-5">
+                <div class="card h-100">
+                    <!-- <div class="card-header">
+                        <img src="./iterative-design/iterativeimg.png" class="proj-img blue-layer" style="width: 100%; max-width: 25;">
+                        <h3>Iterative Design</h3>
+                    </div> -->
+                    <div class="card-body">
+                        <div class="card=text">
+                            <img src="./iterative-design/iterativeimg.png" class="proj-img blue-layer" style="width: 100%; max-width: 25;">
+                            <h3 class="mt-2">Iterative Design</h3>
+                            <p class="desc-head mt-3">
+                                As part of a group, I was involved in mocking up a solution to the an emerging startup's concept, designing an interactive interface, and conducting user testing.
+                            </p>
+                            <p class="desc-head">
+                                <strong>Skills:</strong>
+                                <mark style="background: rgb(20, 0, 145)!important; color: white;" class="skill">Lo-Fi Wireframing (Figma)</mark>
+                                <mark style="background: rgb(20, 0, 145)!important; color: white;" class="skill">Hi-Fi Prototyping (Figma)</mark>
+                                <mark style="background: rgb(20, 0, 145)!important; color: white;" class="skill">User Testing</mark>
+                            </p>
+                            <a href="./iterative-design/iterative.html" class="card-btn btn text-light btn-lg">See project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 pb-5">
+                <div class="card h-100">
+                    <!-- <div class="card-header">
+                        <img src="./capstone/cap.png" class="proj-img blue-layer" style="width: 100%; max-width: 25;">
+                        <h3>Capstone Presentation</h3>
+                    </div> -->
+                    <div class="card-body">
+                        <div class="card=text">
+                            <img src="./capstone/stone.png" class="proj-img blue-layer" style="width: 100%; max-width: 25;">
+                            <h3 class="mt-2">Capstone Presentation</h3>
+                            <p class="mt-3">
+                                I wrote a literature review studying how decision making differs in humans and machines and make informed suggestions for future machine design and integration.
+                            </p>
+                            <p class="desc-head">
+                                <strong>Skills:</strong>
+                                <mark style="background: rgb(20, 0, 145)!important; color: white;" class="skill">Literature Review</mark>
+                                <mark style="background: rgb(20, 0, 145)!important; color: white;" class="skill">HCI Research</mark>
+                            </p>
+                            <a href="https://docs.google.com/presentation/d/1MNfwCX765qi_T32XJVkaSfbhYOWLhqUCai4jqOktxUY/edit?usp=sharing" target="_blank" rel="noopener noreferrer" class="card-btn btn text-light btn-lg">See project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="about" class="d-flex flex-column justify-content-center"> <!--align-items-center-->
+        <div class="container">
+            <div class="row">
+              <div class="col-9">
+                <h1 class="text-light px-2">About Me</h1>
+                <!-- <h5 class="text-light px-2 mt-4">
+                    👋 My name is Maya Ashkenazi, and I’m a senior at Brown University, studying Behavioral Decision Sciences, with a focus in Human Computer Interaction.
+                    I was a visiting student at the University of Oxford for a year, where I studied Computer Science and Psychology.
+                    Coming with an interdisciplinary background, I provide a unique, human-centered approach to UX research and design.
+                </h5> -->
+                <h5 class="text-light px-2 mt-4">
+                    👋 I’m Maya, an excited and passionate worker who brings a unique, interdisciplinary approach to UX research and design.
+                </h5>
+                <h5 class="text-light px-2 mt-4">
+                    📚 Currently, I’m a senior at Brown University, studying Behavioral Decision Sciences with a focus in Human Computer Interaction.
+                    I also spent a year as a visiting student at the University of Oxford, where I studied Computer Science and Psychology.
+                </h5>
+                <h5 class="text-light px-2 mt-4">
+                    💻 Most recently, I've worked as a Product Management Intern at 
+                    <a href="https://www.proactive.vc/" target="_blank" rel="noopener noreferrer" class="text-link">Proactive VC</a>,
+                    and as a Human-Robot Interaction Research Assistant at the
+                    <a href="https://research.clps.brown.edu/SocCogSci/" target="_blank" rel="noopener noreferrer" class="text-link">Malle Social Cognitive Science Research Lab</a>.
+                </h5>
+                <h5 class="text-light px-2 mt-4">
+                    💼 I'm currently looking for full time UX research or design opportunities. 
+                </h5> 
+              </div>
+              <div class="col-3 d-flex justify-content-center align-items-center">
+                <img src="profile.JPG" id="about-img" style="width: 50%;">
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="connect" class="d-flex flex-column justify-content-center align-items-center">
+        <h3 class="text-light px-3 py-5">To learn more about me, check out my 
+            <a href="rescopy.pdf" target="_blank" rel="noopener noreferrer" class="res-btn btn text-light btn-lg"><h3>resume</h3></a>
+            or reach out on
+            <a href="https://www.linkedin.com/in/mayaashkenazi1/" target="_blank" rel="noopener noreferrer" class="res-btn btn text-light btn-lg"><h3>LinkedIn</h3></a>
+        </h3> 
+    </div>
+
+    <footer id="foot" class="text-end py-3">
+        <div class="container text-right"></div>
+        <p class="my-0 foot-text">
+            Designed and Handcoded in Providence with &hearts; by Maya 2022
+        </p>
+    </footer>
+
+</body>
+</html>
